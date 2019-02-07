@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html> 
+<script> 
+var i,j,k=1,p=0; 
+var b=prompt("how many element do you want enter array value"); 
+var a=[];
+for(var l=0;l<b;l++)
+a[p++]=prompt("enter value "+ l); 
+for(i=0;i<a.length;i++) 
+{     
+for(j=0;j<a.length;j++)     
+{         
+if(a[j]-a[i] == k )         
+document.write("("+a[j]+","+a[i]+")");         
+document.write("\n");     
+} 
+} 
+</script> 
+<body> 
+</body> 
+</html>
